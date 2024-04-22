@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hotel Website</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+      
+
+      <a href="#" class="logo"> <i class="fas fa-hotel"></i> hotel </a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#room">room</a>
+         <a href="#gallery">gallery</a>
+         <a href="#review">review</a>
+         <a href="#faq">faq</a>
+         <a href="file:///C:/Users/alice/OneDrive/Desktop/folder/website/login/login.html#" class="btn">Signup/Login</a>
+         <a href="#reservation" class="btn"> book now</a>
+         
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="">
+
+        
+         <div class="box">
+            <p>Search <span>*</span></p>
+            <select name="Location" id="" class="input">
+               <option value="1">Search Destination</option>
+               <option value="2">Goa</option>
+               <option value="3">New Delhi</option>
+               <option value="4">Mumbai</option>
+               <option value="5">Bangalore</option>
+               <option value="6">Hyderabad</option>
+               <option value="1"> Pune</option>
+               <option value="2"> Jaipur</option>
+               <option value="3"> Ahmedabad</option>
+               <option value="3">  Chennai</option>
+               <option value="2">Dubai</option>
+               <option value="3">Singapore</option>
+               <option value="4"> London</option>
+               <option value="5">Maldives</option>
+               <option value="6">Bangkok</option>
+               <option value="1"> Paris</option>
+               <option value="2"> Amsterdam</option>
+               <option value="3"> Bali</option>
+               <option value="3"> Hong Kong</option>
+              
+               <div class="box-shadow">
+                  
+                     onfocus="this.placeholder = ''" onfocusout="this.placeholder = 'Search destination or hotels'"
+                     class="form-control search-form autosuggest ui-autocomplete-input ui-autocomplete-input-has-clear"
+                     autocomplete="off" data-stype="1">
+                  <span tabindex="-1" class="ui-autocomplete-clear"
+                     style="position: absolute; top: 0px; left: 1033px; display: inline-block; right: 30px; font-size: 25px; cursor: pointer; outline: none;">
+                  </span>
+               </div>
+      
+            </select>
+         </div>
+
+
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 adults</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>children <span>*</span></p>
+            <select name="child" id="" class="input">
+               <option value="1">1 child</option>
+               <option value="2">2 child</option>
+               <option value="3">3 child</option>
+               <option value="4">4 child</option>
+               <option value="5">5 child</option>
+               <option value="6">6 child</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" id="" class="input">
+               <option value="1">1 rooms</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/about.jpg" alt="">
+         </div>
+
+         <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus
+               repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium
+               repellat aliquam dolore voluptates.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus
+               repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium
+               repellat aliquam dolore voluptates.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- room -->
+
+   <section class="room" id="room">
+
+      <h1 class="heading">our room</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/italy.jpeg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>Italy</h3>
+                  <p>Italy is well-known for its architecture, culture, art, opera, literature, film, and fashion. This is one of the best countries to go on a foreign tour. The country is known for its mesmerizing topography, pristine beaches, historical artifacts, monuments, and more.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/london.jpeg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>london</h3>
+                  <p>London is one of the world's most cosmopolitan cities. It is the largest metropolis in the United Kingdom, and it is also the country's economic, transportation, and cultural centre.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/singapore.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>singapore</h3>
+                  <p>Catch a glimpse of Singapore's most majestic icon, the Merlion, a mythical creature that's half-fish and half-lion. The Merlion combines two elements of Singapore's identity—its body symbolises the fishing villages of Singapore's past, while its lion head is a symbol of Singapura</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/thailand.jpeg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>thailand</h3>
+                  <p>A historically Buddhist country, Thailand and its jungles, mountains, islands, and cities bristle with the gilt pinnacles of its innumerable temples and spirit houses. Many of its most significant sites, which house its most revered buddhas, can be found in and around the capital.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/vietnam.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>vietnam</h3>
+                  <p>Vietnam is famous for several things, from ancient towns, UNESCO heritage sites, and serene beaches to scrumptious Pho and a different kinds of coffee. Choose which places you want to explore and start planning for your getaway.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">1500/night</span>
+                  <img src="images/spain.webp" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>Spain</h3>
+                  <p>Spain is famous for its culture, delicious food like paella and tapas, and iconic landmarks such as the Sagrada Familia and Alhambra. It is also known for flamenco dancing, bullfighting, and beautiful beaches.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/service1.png" alt="">
+            <h3>swimming pool</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service2.png" alt="">
+            <h3>food & drink</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service3.png" alt="">
+            <h3>restaurant</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service4.png" alt="">
+            <h3>fitness</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service5.png" alt="">
+            <h3>beauty spa</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service6.png" alt="">
+            <h3>resort beach</h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">our gallery</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery2.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery3.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery4.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery5.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery6.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review -->
+
+   <section class="review" id="review">
+
+      <div class="swiper review-slider">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-1.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-2.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-3.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-4.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-5.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="images/pic-6.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- faq -->
+
+   <section class="faqs" id="faq">
+
+      <h1 class="heading">frequently asked questions</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/FAQs.gif" alt="">
+         </div>
+
+         <div class="content">
+
+            <div class="box active">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>check in <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>check out <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>adults <span>*</span></p>
+               <select name="adults" class="input">
+                  <option value="1">1 adults</option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">4 adults</option>
+                  <option value="5">5 adults</option>
+                  <option value="6">6 adults</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>children <span>*</span></p>
+               <select name="child" class="input">
+                  <option value="1">1 child</option>
+                  <option value="2">2 child</option>
+                  <option value="3">3 child</option>
+                  <option value="4">4 child</option>
+                  <option value="5">5 child</option>
+                  <option value="6">6 child</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>rooms <span>*</span></p>
+               <select name="rooms" class="input">
+                  <option value="1">1 rooms</option>
+                  <option value="2">2 rooms</option>
+                  <option value="3">3 rooms</option>
+                  <option value="4">4 rooms</option>
+                  <option value="5">5 rooms</option>
+                  <option value="6">6 rooms</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>room type <span>*</span></p>
+               <select name="type" class="input">
+                  <option value="1">exclusive rooms</option>
+                  <option value="2">family rooms</option>
+                  <option value="3">daily rooms</option>
+                  <option value="4">panoramic rooms</option>
+               </select>
+            </div>
+
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>The Company</h3>
+            <a href="#"> <i class="fas fa-phone"></i> About Us </a>
+            <a href="#"> <i class="fas fa-phone"></i> Contact Us</a>
+            <a href="#"> <i class="fas fa-envelope"></i> Careers</a>
+           
+         </div>
+
+         <div class="box">
+            <h3>Hotels in India</h3>
+            <a href=file:///C:/Users/alice/OneDrive/Desktop/folder/website/2nd%20page/index.html target="_blank"> <i class="fas fa-arrow-right"></i> goa</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> New Delhi</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mumbai</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Bangalore</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Hyderabad</a>
+           
+         </div>
+
+         <div class="box">
+            <h3>International Hotels</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Dubai</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Singapore</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> London</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Maldives</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Bangkok</a>
+         </div>
+         <div class="box">
+            <h3>Important Information</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Terms and Conditions</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Travel Agent Agreement</a>
+           
+         </div>
+
+      </div>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2024 by <span>kad</span></div>
+
+   </section>
+
+   <!-- end -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
